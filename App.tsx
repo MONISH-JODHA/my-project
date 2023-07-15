@@ -9,7 +9,8 @@ function app() {
   return (
     <SafeAreaView>
       <View>
-        <Text>Hi MJ</Text>
+        <Text>Hi Monish Jodha
+        </Text>
       </View>
     </SafeAreaView>
   );
