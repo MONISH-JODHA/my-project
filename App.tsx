@@ -1,8 +1,9 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
 import {
-  View, 
+  View,
   Text,
-SafeAreaView
+  SafeAreaView
 } from 'react-native'
 
 function app() {

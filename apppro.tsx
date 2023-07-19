@@ -1,13 +1,14 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
-import {View, Text, StyleSheet, useColorScheme} from 'react-native';
+import { View, Text, StyleSheet, useColorScheme } from 'react-native';
 
 function apppro(): JSX.Element {
-    const darkmode = useColorScheme() ==='dark'
+  const darkmode = useColorScheme() === 'light';
 
   return (
-   
+
     <View style={styles.container}>
-      <Text style={darkmode ? styles.whitetxt : styles.blacktxttxt }>Testing</Text>
+      <Text style={darkmode ? styles.blacktxt : styles.whitetxt}>Testing Area</Text>
     </View>
   );
 }
@@ -18,11 +19,11 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center'
   },
-  whitetxt:{
-    color:'white'
+  whitetxt: {
+    color: 'white',
   },
-  blacktxt:{
-    color:'black'
-  }
+  blacktxt: {
+    color: 'black',
+  },
 });
 export default apppro;
